@@ -10,9 +10,7 @@
 
 \section{Chants}
 
-\subsection{Om Shanti Om}
-
-Main part:
+\subsection{Om Śāntiḥ Om}
 
 \lilypondfile[quote,noindent]{omshantiom.ly}
 
