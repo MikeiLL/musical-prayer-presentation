@@ -8,7 +8,23 @@
 
 \begin{large}
 
-\section{Om Asato Ma}
+\section{Chants}
+
+\subsection{Om Shanti Om}
+
+Main part:
+
+\lilypondfile[quote,noindent]{omshantiom.ly}
+
+First additional layer:
+
+\lilypondfile[quote,noindent]{omshantiom_krsna.ly}
+
+Second additional layer:
+
+\lilypondfile[quote,noindent]{omshantiom_hikrsna.ly}
+
+\subsection{Om Asato Ma}
 
 \lilypondfile[quote,noindent]{asato_ma.ly}
 
