@@ -12,13 +12,19 @@
 
 \subsection{Om Śāntiḥ Om}
 
+Om is a bījākṣara or seed syllable that represents, invokes and resonates with the frequency of the universe from it’s dawning, through the infinite present and until the end of time. Om both the sound and the glyph are considered within Hinduism, Bhudism, Sikhism and other religions around the world. I'll be talking a bit about bījākṣara and Om in today's presentation. Shanti means peace.
+
 \lilypondfile[quote,noindent]{omshantiom.ly}
 
-First additional layer:
+Members of the choir and anyone else who is moved to may add another layer on top of the Om Shanti oms. This second chant references Kṛṣṇa and Rāma.
+
+Kṛṣṇa, and avatar of Viṣṇu, is the Hindu deity associated with peace, protection, compassion, tenderness and love. Kṛṣṇa is often depicted as a baby or child with skin blue skin like that of Viṣṇu. Rāma is also an avatar of Viṣṇu; the seventh avatar, and is the protagonist in the Hindu epic the Rāmāyaṇam in which he exemplifies insurpassable disciplin, spiritual devotion, surender and generally being completely attuned to the path of our ultimate destiny.
+
+Priya means dear or precious.
 
 \lilypondfile[quote,noindent]{omshantiom_krsna.ly}
 
-Second additional layer:
+In a third potential layer we add the word swaha which is frequently used in Hindu ritual and prayer and used similarly to amein and amen in Judeo-Christian, ashe in Yoruba and so mote it be in wiccan practices. I've also seen it described as an expression of surrender, devotion and acceptance.
 
 \lilypondfile[quote,noindent]{omshantiom_hikrsna.ly}
 
