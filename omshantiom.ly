@@ -10,7 +10,7 @@ melody = \relative c' {
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 	\new Voice = "words" {
 		\repeat volta 2 {
-		 c2 c4 des | c2 c4 c | des2 des4 des | c1 |
+		 c2 c4 des | c2 c4 c | des2 des4 des | c1 \bar "|."
 		}
 	}
 }
@@ -29,13 +29,13 @@ text =  \lyricmode {
   	}
     	\new Lyrics \lyricsto "words" \text
   >>
-  \layout { 
+  \layout {
    #(layout-set-staff-size 16)
    \context { \ChordNames
      \override ChordName #'font-size = #1
-  	} 
+  	}
   }
-  \midi { 
+  \midi {
   	\tempo 4 = 116
   }
 }

@@ -15,7 +15,7 @@ melody = \relative c' {
 		\alternative {
 			{ e1 | }
 			{ e2 e | }
-			{ r4 e4 e2 | }
+			{ r4 e4 e2 \bar "|." }
 		}
 	}
 }
@@ -34,13 +34,13 @@ text =  \lyricmode {
   	}
     	\new Lyrics \lyricsto "words" \text
   >>
-  \layout { 
+  \layout {
    #(layout-set-staff-size 16)
    \context { \ChordNames
      \override ChordName #'font-size = #1
-  	} 
+  	}
   }
-  \midi { 
+  \midi {
   	\tempo 4 = 116
   }
 }

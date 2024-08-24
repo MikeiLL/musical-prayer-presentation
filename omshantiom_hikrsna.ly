@@ -4,7 +4,7 @@
 }
 
 melody = \relative c'' {
-	\override Staff.TimeSignature #'stencil = ##f 
+	\override Staff.TimeSignature #'stencil = ##f
   \clef treble
   \time 4/4
   \key c \major
@@ -13,12 +13,12 @@ melody = \relative c'' {
 		 g4 c2.~ | c1 |
 		 g4 c2.~ | c1 |
 		 g4 c2.~ | c1 |
-		 c1~ | c
+		 c~ | c \bar "|."
 	}
 }
 
 text =  \lyricmode {
-	Kṛ -- ṣṇa śān -- tiḥ swa -- ha Om 
+	Kṛ -- ṣṇa śān -- tiḥ swa -- ha Om
 }
 
 \score {
@@ -31,14 +31,14 @@ text =  \lyricmode {
   	}
     	\new Lyrics \lyricsto "words" \text
   >>
-  \layout { 
+  \layout {
   \override Score.BarLine.break-visibility = ##(#f #t #t)
    #(layout-set-staff-size 16)
    \context { \ChordNames
      \override ChordName #'font-size = #1
-  	} 
+  	}
   }
-  \midi { 
+  \midi {
   	\tempo 4 = 116
   }
 }

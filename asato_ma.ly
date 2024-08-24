@@ -14,7 +14,7 @@ melody = \relative c' {
 			d8 d4 c8 d4. c8 | d4 \times 2/3 { ees8 ees4 } d4 r |
 			d8 d4 c8 d4. c8 | d4 \times 2/3 { ees8 ees4 } d4 r |
 			\grace c16 c4 c d ees8. d16 | d4 \times 2/3 { ees8 ees4 } d4 r |
-			\grace c16 c4 c d ees8. d16 | d4 \times 2/3 { ees8 ees4 } d4 r |
+			\grace c16 c4 c d ees8. d16 | d4 \times 2/3 { ees8 ees4 } d4 r \bar "|."
 		}
 }
 
@@ -44,10 +44,10 @@ harmonies = \chordmode {
   	}
     \new Lyrics \lyricsto "words" \text
   >>
-  \layout { 
+  \layout {
    #(layout-set-staff-size 16)
    }
-  \midi { 
+  \midi {
   	\tempo 4 = 125
   }
 }

@@ -4,7 +4,7 @@
 \usepackage[margin=0.5in]{geometry}
 \begin{document}
 
-% render: lilypond-book --output=out --pdf armed_forces_medley.lytex
+% render: lilypond-book --output=out --pdf 8-25-24.lytex
 
 \begin{large}
 
@@ -34,7 +34,6 @@ In a third potential layer we add the word swaha which is frequently used in Hin
 
 % spacing https://tex.stackexchange.com/questions/198432/using-the-tab-command#208710
 
-\hspace{10pt}
 
 \end{large}
 \end{document}
